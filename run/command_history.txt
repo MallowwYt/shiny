@@ -1,0 +1,8 @@
+/give Dev minecraft:diamond_pickaxe
+/enchant Dev minecraft:fortune 1
+/enchant Dev minecraft:fortune 2
+/difficulty peaceful
+/time set day
+/gamerule doDaylightCycle false
+/enchant Dev minecraft:fortune 2
+/enchant Dev minecraft:fortune 3

@@ -1,0 +1,332 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hammerheadtest",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammerheadtest",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/entity/HammerheadtestEntity.java",
+          "src/main/resources/assets/shiny/models/item/hammerheadtest_spawn_egg.json",
+          "src/main/resources/data/shiny/neoforge/biome_modifier/hammerheadtest_biome_modifier.json",
+          "src/main/java/shiny/client/renderer/HammerheadtestRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shiny/models/item/ruby.json",
+          "src/main/java/shiny/item/RubyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shiny/blockstates/ruby_ore.json",
+          "src/main/java/shiny/block/RubyOreBlock.java",
+          "src/main/resources/assets/shiny/models/item/ruby_ore.json",
+          "src/main/resources/data/shiny/loot_table/blocks/ruby_ore.json",
+          "src/main/resources/assets/shiny/models/block/ruby_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "UncutRubyItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncut_ruby_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/UncutRubyItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UncutRuby",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncut_ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/item/UncutRubyItem.java",
+          "src/main/resources/assets/shiny/models/item/uncut_ruby.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateRubyOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shiny/loot_table/blocks/deepslate_ruby_ore.json",
+          "src/main/java/shiny/block/DeepslateRubyOreBlock.java",
+          "src/main/resources/assets/shiny/models/block/deepslate_ruby_ore.json",
+          "src/main/resources/assets/shiny/models/item/deepslate_ruby_ore.json",
+          "src/main/resources/assets/shiny/blockstates/deepslate_ruby_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "HotPotato",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_potato",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shiny/advancement/hot_potato.json"
+        ]
+      }
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shiny/models/item/ruby_sword.json",
+          "src/main/java/shiny/item/RubySwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubySwordRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_tool_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/RubySwordRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/item/RubyPickaxeItem.java",
+          "src/main/resources/assets/shiny/models/item/ruby_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyPickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/RubyPickaxeBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnhancedRuby",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shiny/models/item/enhanced_ruby.json",
+          "src/main/java/shiny/item/EnhancedRubyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FireBoots",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/item/FireBootsItem.java",
+          "src/main/resources/assets/shiny/models/item/fire_boots_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "FireBootsBootsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_boots_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/FireBootsBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OneDollarBillRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_dollar_bill_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/OneDollarBillRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "MoneyCount",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:RubyPickaxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:RubySword"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:FireBoots.boots"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.shiny.uncut_ruby": "Uncut Ruby",
+      "advancements.hot_potato.descr": "burn yourself with an uncut ruby",
+      "item.shiny.hammerheadtest_spawn_egg": "Hammerheadtest Spawn Egg",
+      "item.shiny.enhanced_ruby": "Magically Enhanced Ruby",
+      "block.shiny.ruby_ore": "Ruby Ore",
+      "advancements.hot_potato.title": "Hot Potato",
+      "item.shiny.ruby": "Ruby",
+      "item.shiny.ruby_pickaxe": "Ruby Pickaxe",
+      "block.shiny.deepslate_ruby_ore": "Deepslate Ruby Ore",
+      "item.shiny.ruby_sword": "Ruby Sword",
+      "item.shiny.fire_boots_boots": "Fire Boots",
+      "entity.shiny.hammerheadtest": "Hammerheadtest"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "shiny",
+    "modName": "Shiny!!!",
+    "version": "1.0.0",
+    "author": "charl, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "shiny"
+  },
+  "mcreatorVersion": 202400340615
+}

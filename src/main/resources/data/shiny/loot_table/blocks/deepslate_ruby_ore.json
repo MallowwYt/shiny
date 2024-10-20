@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "shiny:blocks/deepslate_ruby_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "shiny:uncut_ruby"
+        }
+      ]
+    }
+  ]
+}

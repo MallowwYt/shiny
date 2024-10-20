@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shiny:block/deepslate_ruby_ore",
+    "up": "shiny:block/deepslate_ruby_ore",
+    "north": "shiny:block/deepslate_ruby_ore",
+    "east": "shiny:block/deepslate_ruby_ore",
+    "south": "shiny:block/deepslate_ruby_ore",
+    "west": "shiny:block/deepslate_ruby_ore",
+    "particle": "shiny:block/deepslate_ruby_ore"
+  },
+  "render_type": "solid"
+}

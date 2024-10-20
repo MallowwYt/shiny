@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "shiny:uncut_ruby"
+    },
+    "title": {
+      "translate": "advancements.hot_potato.title"
+    },
+    "description": {
+      "translate": "advancements.hot_potato.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "hot_potato_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

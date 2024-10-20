@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shiny:block/ruby_ore",
+    "up": "shiny:block/ruby_ore",
+    "north": "shiny:block/ruby_ore",
+    "east": "shiny:block/ruby_ore",
+    "south": "shiny:block/ruby_ore",
+    "west": "shiny:block/ruby_ore",
+    "particle": "shiny:block/ruby_ore"
+  },
+  "render_type": "solid"
+}
