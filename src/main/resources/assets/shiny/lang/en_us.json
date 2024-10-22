@@ -1,14 +1,25 @@
 {
+  "block.shiny.scorching_soil": "Scorching Soil",
+  "item.shiny.opal": "Opal",
+  "block.shiny.molding_station": "Molding Station",
   "item.shiny.uncut_ruby": "Uncut Ruby",
   "advancements.hot_potato.descr": "burn yourself with an uncut ruby",
   "item.shiny.hammerheadtest_spawn_egg": "Hammerheadtest Spawn Egg",
   "item.shiny.enhanced_ruby": "Magically Enhanced Ruby",
+  "item.shiny.ten_dollar_bill": "Ten Dollar Bill",
   "block.shiny.ruby_ore": "Ruby Ore",
   "advancements.hot_potato.title": "Hot Potato",
+  "item.shiny.one_dollar_bill": "One Dollar Bill",
+  "block.shiny.opal_ore": "Opal Ore",
   "item.shiny.ruby": "Ruby",
   "item.shiny.ruby_pickaxe": "Ruby Pickaxe",
   "block.shiny.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "item.shiny.ruby_sword": "Ruby Sword",
+  "item.shiny.hundred_dollar_bill": "Hundred Dollar Bill",
   "item.shiny.fire_boots_boots": "Fire Boots",
-  "entity.shiny.hammerheadtest": "Hammerheadtest"
+  "item.shiny.ruby_hoe": "Ruby Hoe",
+  "key.shiny.test_show_money": "Test Show Money",
+  "entity.shiny.hammerheadtest": "Hammerheadtest",
+  "block.shiny.hot_soil": "Hot Soil",
+  "item.shiny.uncut_opal": "Uncut Opal"
 }

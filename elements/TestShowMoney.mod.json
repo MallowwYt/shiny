@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "H",
+    "keyBindingName": "Test Show Money",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "TestShowMoneyOnKeyPressed"
+    }
+  }
+}

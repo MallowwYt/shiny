@@ -2,6 +2,7 @@
 package shiny.item;
 
 import shiny.procedures.RubySwordRightclickedOnBlockProcedure;
+import shiny.procedures.RubySwordLivingEntityIsHitWithToolProcedure;
 
 import shiny.init.ShinyModItems;
 
@@ -12,6 +13,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.tags.TagKey;
 import net.minecraft.tags.BlockTags;
@@ -51,6 +53,13 @@ public class RubySwordItem extends SwordItem {
 
 	public RubySwordItem() {
 		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 7f, -3f)).fireResistant());
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		RubySwordLivingEntityIsHitWithToolProcedure.execute(entity);
+		return retval;
 	}
 
 	@Override

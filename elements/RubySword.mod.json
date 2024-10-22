@@ -40,6 +40,9 @@
     "damageOnCrafting": false,
     "onRightClickedOnBlock": {
       "name": "RubySwordRightclickedOnBlock"
+    },
+    "onEntityHitWith": {
+      "name": "RubySwordLivingEntityIsHitWithTool"
     }
   }
 }

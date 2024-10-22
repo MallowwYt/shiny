@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hot_farmland",
+        "2": "minecraft:dirt"
+      },
+      "name": "default"
+    }
+  }
+}

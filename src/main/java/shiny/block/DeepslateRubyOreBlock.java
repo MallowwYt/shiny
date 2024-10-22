@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class DeepslateRubyOreBlock extends Block {
 	public DeepslateRubyOreBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(4.5f, 3f));
 	}
 
 	@Override

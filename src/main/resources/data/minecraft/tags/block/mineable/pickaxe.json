@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "shiny:opal_ore",
+    "shiny:deepslate_ruby_ore",
+    "shiny:ruby_ore"
+  ]
+}

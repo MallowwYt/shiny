@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "shiny:ruby_hoe",
     "shiny:ruby_pickaxe"
   ]
 }

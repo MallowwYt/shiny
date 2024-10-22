@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "shiny:deepslate_ruby_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "shiny:custom/hotsoilfixed",
+  "textures": {
+    "all": "shiny:block/hot_farmland",
+    "particle": "shiny:block/hot_farmland",
+    "0": "shiny:block/hot_farmland",
+    "2": "minecraft:block/dirt"
+  },
+  "render_type": "solid"
+}

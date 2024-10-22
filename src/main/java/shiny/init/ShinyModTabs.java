@@ -35,16 +35,21 @@ public class ShinyModTabs {
 			tabData.accept(ShinyModItems.RUBY.get());
 			tabData.accept(ShinyModItems.UNCUT_RUBY.get());
 			tabData.accept(ShinyModItems.ENHANCED_RUBY.get());
+			tabData.accept(ShinyModItems.ONE_DOLLAR_BILL.get());
+			tabData.accept(ShinyModItems.UNCUT_OPAL.get());
+			tabData.accept(ShinyModItems.OPAL.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 
 			tabData.accept(ShinyModBlocks.RUBY_ORE.get().asItem());
 			tabData.accept(ShinyModBlocks.DEEPSLATE_RUBY_ORE.get().asItem());
+			tabData.accept(ShinyModBlocks.OPAL_ORE.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(ShinyModItems.RUBY_SWORD.get());
 			tabData.accept(ShinyModItems.RUBY_PICKAXE.get());
+			tabData.accept(ShinyModItems.RUBY_HOE.get());
 
 		}
 	}

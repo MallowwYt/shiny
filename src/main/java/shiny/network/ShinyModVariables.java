@@ -62,6 +62,7 @@ public class ShinyModVariables {
 			PlayerVariables clone = new PlayerVariables();
 			clone.MoneyCount = original.MoneyCount;
 			if (!event.isWasDeath()) {
+				clone.DrowningTimer = original.DrowningTimer;
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
 		}
@@ -69,17 +70,20 @@ public class ShinyModVariables {
 
 	public static class PlayerVariables implements INBTSerializable<CompoundTag> {
 		public double MoneyCount = 0;
+		public double DrowningTimer = 0;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("MoneyCount", MoneyCount);
+			nbt.putDouble("DrowningTimer", DrowningTimer);
 			return nbt;
 		}
 
 		@Override
 		public void deserializeNBT(HolderLookup.Provider lookupProvider, CompoundTag nbt) {
 			MoneyCount = nbt.getDouble("MoneyCount");
+			DrowningTimer = nbt.getDouble("DrowningTimer");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

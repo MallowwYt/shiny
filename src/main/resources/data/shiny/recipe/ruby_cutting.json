@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "shiny:uncut_ruby"
+  },
+  "result": {
+    "id": "shiny:ruby",
+    "count": 1
+  }
+}

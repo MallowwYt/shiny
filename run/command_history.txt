@@ -6,3 +6,23 @@
 /gamerule doDaylightCycle false
 /enchant Dev minecraft:fortune 2
 /enchant Dev minecraft:fortune 3
+/tick rate 1000
+/give Dev shin
+/give Dev shiny:scorching_soil
+/tick rate 20
+/effect give Dev minecraft:night_vision infinite 255 true
+/tp 10000 100 10000
+/effect give Dev minecraft:night_vision infinite 255 true
+/locate biome minecraft:ocean
+/tp @s 169 21 -914
+/tp Dev 29389 100 -23723
+/locate biome minecraft:ocean
+/tp @s 29501 61 -23796
+/enchant Dev minecraft:fortune 3
+/effect clear Dev
+/time set day
+/give Dev shiny:hundred_dollar_bill
+/gamerule doMobSpawning false
+/kill @e[ type= !minecraft:player]
+/kill @e[ type= !minecraft:player]t
+/kill @e[ type= !minecraft:player]

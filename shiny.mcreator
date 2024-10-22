@@ -26,7 +26,8 @@
           "src/main/resources/assets/shiny/models/item/ruby.json",
           "src/main/java/shiny/item/RubyItem.java"
         ]
-      }
+      },
+      "path": "~/Ruby"
     },
     {
       "name": "RubyOre",
@@ -40,9 +41,13 @@
           "src/main/java/shiny/block/RubyOreBlock.java",
           "src/main/resources/assets/shiny/models/item/ruby_ore.json",
           "src/main/resources/data/shiny/loot_table/blocks/ruby_ore.json",
-          "src/main/resources/assets/shiny/models/block/ruby_ore.json"
+          "src/main/resources/data/shiny/neoforge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/data/shiny/worldgen/placed_feature/ruby_ore.json",
+          "src/main/resources/assets/shiny/models/block/ruby_ore.json",
+          "src/main/resources/data/shiny/worldgen/configured_feature/ruby_ore.json"
         ]
-      }
+      },
+      "path": "~/Ruby"
     },
     {
       "name": "UncutRubyItemInHandTick",
@@ -60,7 +65,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Ruby"
     },
     {
       "name": "UncutRuby",
@@ -73,7 +79,8 @@
           "src/main/java/shiny/item/UncutRubyItem.java",
           "src/main/resources/assets/shiny/models/item/uncut_ruby.json"
         ]
-      }
+      },
+      "path": "~/Ruby"
     },
     {
       "name": "DeepslateRubyOre",
@@ -83,13 +90,17 @@
       "registry_name": "deepslate_ruby_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/shiny/neoforge/biome_modifier/deepslate_ruby_ore_biome_modifier.json",
           "src/main/resources/data/shiny/loot_table/blocks/deepslate_ruby_ore.json",
           "src/main/java/shiny/block/DeepslateRubyOreBlock.java",
           "src/main/resources/assets/shiny/models/block/deepslate_ruby_ore.json",
+          "src/main/resources/data/shiny/worldgen/configured_feature/deepslate_ruby_ore.json",
+          "src/main/resources/data/shiny/worldgen/placed_feature/deepslate_ruby_ore.json",
           "src/main/resources/assets/shiny/models/item/deepslate_ruby_ore.json",
           "src/main/resources/assets/shiny/blockstates/deepslate_ruby_ore.json"
         ]
-      }
+      },
+      "path": "~/Ruby"
     },
     {
       "name": "HotPotato",
@@ -114,7 +125,8 @@
           "src/main/resources/assets/shiny/models/item/ruby_sword.json",
           "src/main/java/shiny/item/RubySwordItem.java"
         ]
-      }
+      },
+      "path": "~/Ruby"
     },
     {
       "name": "RubySwordRightclickedOnBlock",
@@ -144,7 +156,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Ruby"
     },
     {
       "name": "RubyPickaxe",
@@ -157,7 +170,8 @@
           "src/main/java/shiny/item/RubyPickaxeItem.java",
           "src/main/resources/assets/shiny/models/item/ruby_pickaxe.json"
         ]
-      }
+      },
+      "path": "~/Ruby"
     },
     {
       "name": "RubyPickaxeBlockDestroyedWithTool",
@@ -195,7 +209,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Ruby"
     },
     {
       "name": "EnhancedRuby",
@@ -208,7 +223,8 @@
           "src/main/resources/assets/shiny/models/item/enhanced_ruby.json",
           "src/main/java/shiny/item/EnhancedRubyItem.java"
         ]
-      }
+      },
+      "path": "~/Ruby"
     },
     {
       "name": "FireBoots",
@@ -270,6 +286,492 @@
           }
         ]
       }
+    },
+    {
+      "name": "OneDollarBill",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_dollar_bill",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/item/OneDollarBillItem.java",
+          "src/main/resources/assets/shiny/models/item/one_dollar_bill.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shiny/recipe/ruby_cutting.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "TestShowMoneyOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_show_money_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/TestShowMoneyOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestShowMoney",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_show_money",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/network/TestShowMoneyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "ScorchingSoil",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorching_soil",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/block/ScorchingSoilBlock.java",
+          "src/main/resources/assets/shiny/models/item/scorching_soil.json",
+          "src/main/resources/assets/shiny/blockstates/scorching_soil.json",
+          "src/main/resources/assets/shiny/models/block/scorching_soil.json",
+          "src/main/resources/data/shiny/loot_table/blocks/scorching_soil.json"
+        ]
+      }
+    },
+    {
+      "name": "ScorchingSoilEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorching_soil_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/ScorchingSoilEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotSoil",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_soil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shiny/blockstates/hot_soil.json",
+          "src/main/java/shiny/block/HotSoilBlock.java",
+          "src/main/resources/assets/shiny/models/block/hot_soil.json",
+          "src/main/resources/data/shiny/loot_table/blocks/hot_soil.json",
+          "src/main/resources/assets/shiny/models/item/hot_soil.json"
+        ]
+      }
+    },
+    {
+      "name": "HotSoilOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_soil_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/HotSoilOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyHoeRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/RubyHoeRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/item/RubyHoeItem.java",
+          "src/main/resources/assets/shiny/models/item/ruby_hoe.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "OpalOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shiny/models/block/opal_ore.json",
+          "src/main/resources/assets/shiny/blockstates/opal_ore.json",
+          "src/main/resources/data/shiny/neoforge/biome_modifier/opal_ore_biome_modifier.json",
+          "src/main/resources/data/shiny/loot_table/blocks/opal_ore.json",
+          "src/main/resources/data/shiny/worldgen/placed_feature/opal_ore.json",
+          "src/main/resources/assets/shiny/models/item/opal_ore.json",
+          "src/main/resources/data/shiny/worldgen/configured_feature/opal_ore.json",
+          "src/main/java/shiny/block/OpalOreBlock.java"
+        ]
+      },
+      "path": "~/Opal"
+    },
+    {
+      "name": "UncutOpal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncut_opal",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/item/UncutOpalItem.java",
+          "src/main/resources/assets/shiny/models/item/uncut_opal.json"
+        ]
+      },
+      "path": "~/Opal"
+    },
+    {
+      "name": "Opal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shiny/models/item/opal.json",
+          "src/main/java/shiny/item/OpalItem.java"
+        ]
+      },
+      "path": "~/Opal"
+    },
+    {
+      "name": "OpalCutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_cutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shiny/recipe/opal_cutting.json"
+        ]
+      },
+      "path": "~/Opal"
+    },
+    {
+      "name": "RubySwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/RubySwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "TenDollarBill",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ten_dollar_bill",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/item/TenDollarBillItem.java",
+          "src/main/resources/assets/shiny/models/item/ten_dollar_bill.json"
+        ]
+      }
+    },
+    {
+      "name": "TenDollarBillRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ten_dollar_bill_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/TenDollarBillRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HundredDollarBillRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hundred_dollar_bill_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/HundredDollarBillRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HundredDollarBill",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hundred_dollar_bill",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/item/HundredDollarBillItem.java",
+          "src/main/resources/assets/shiny/models/item/hundred_dollar_bill.json"
+        ]
+      }
+    },
+    {
+      "name": "MoldingStation",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molding_station",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/block/MoldingStationBlock.java",
+          "src/main/resources/data/shiny/loot_table/blocks/molding_station.json",
+          "src/main/resources/assets/shiny/models/block/molding_station.json",
+          "src/main/resources/assets/shiny/blockstates/molding_station.json",
+          "src/main/resources/assets/shiny/models/item/molding_station.json"
+        ]
+      },
+      "path": "~/molding"
+    },
+    {
+      "name": "RubyOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shiny/recipe/ruby_ore_smelting.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "DeepslateRubyOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_ruby_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shiny/recipe/deepslate_ruby_ore_smelting.json"
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "OpalOreOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_ore_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/OpalOreOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Opal"
+    },
+    {
+      "name": "UncutOpalItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncut_opal_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/UncutOpalItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Opal"
+    },
+    {
+      "name": "NewOreDrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_ore_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/shiny/procedures/NewOreDropProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Opal"
+    },
+    {
+      "name": "Diamondfromsmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondfromsmelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamondfromsmelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldfromblasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldfromblasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/emeraldfromblasting.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldfromsmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldfromsmelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/emeraldfromsmelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Diamondfromblasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondfromblasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamondfromblasting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -278,15 +780,51 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "DrowningTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:OpalOre",
+      "~CUSTOM:DeepslateRubyOre",
+      "~CUSTOM:RubyOre"
+    ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:RubyHoe",
       "~CUSTOM:RubyPickaxe"
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:RubySword"
+    ],
+    "BLOCKS:minecraft:ores": [
+      "CUSTOM:RubyOre",
+      "CUSTOM:DeepslateRubyOre",
+      "CUSTOM:OpalOre",
+      "Blocks.COAL_ORE",
+      "Blocks.IRON_ORE",
+      "Blocks.REDSTONE_ORE",
+      "Blocks.LIT_REDSTONE_ORE",
+      "Blocks.GOLD_ORE",
+      "Blocks.LAPIS_ORE",
+      "Blocks.DIAMOND_ORE",
+      "Blocks.EMERALD_ORE",
+      "Blocks.COPPER_ORE",
+      "Blocks.DEEPSLATE_COAL_ORE",
+      "Blocks.DEEPSLATE_IRON_ORE",
+      "Blocks.DEEPSLATE_REDSTONE_ORE",
+      "Blocks.DEEPSLATE_GOLD_ORE",
+      "Blocks.DEEPSLATE_LAPIS_ORE",
+      "Blocks.DEEPSLATE_DIAMOND_ORE",
+      "Blocks.DEEPSLATE_EMERALD_ORE",
+      "Blocks.DEEPSLATE_COPPER_ORE",
+      "Blocks.QUARTZ_ORE",
+      "Blocks.NETHER_GOLD_ORE"
     ],
     "ITEMS:minecraft:foot_armor": [
       "~CUSTOM:FireBoots.boots"
@@ -295,23 +833,51 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.shiny.scorching_soil": "Scorching Soil",
+      "item.shiny.opal": "Opal",
+      "block.shiny.molding_station": "Molding Station",
       "item.shiny.uncut_ruby": "Uncut Ruby",
       "advancements.hot_potato.descr": "burn yourself with an uncut ruby",
       "item.shiny.hammerheadtest_spawn_egg": "Hammerheadtest Spawn Egg",
       "item.shiny.enhanced_ruby": "Magically Enhanced Ruby",
+      "item.shiny.ten_dollar_bill": "Ten Dollar Bill",
       "block.shiny.ruby_ore": "Ruby Ore",
       "advancements.hot_potato.title": "Hot Potato",
+      "item.shiny.one_dollar_bill": "One Dollar Bill",
+      "block.shiny.opal_ore": "Opal Ore",
       "item.shiny.ruby": "Ruby",
       "item.shiny.ruby_pickaxe": "Ruby Pickaxe",
       "block.shiny.deepslate_ruby_ore": "Deepslate Ruby Ore",
       "item.shiny.ruby_sword": "Ruby Sword",
+      "item.shiny.hundred_dollar_bill": "Hundred Dollar Bill",
       "item.shiny.fire_boots_boots": "Fire Boots",
-      "entity.shiny.hammerheadtest": "Hammerheadtest"
+      "item.shiny.ruby_hoe": "Ruby Hoe",
+      "key.shiny.test_show_money": "Test Show Money",
+      "entity.shiny.hammerheadtest": "Hammerheadtest",
+      "block.shiny.hot_soil": "Hot Soil",
+      "item.shiny.uncut_opal": "Uncut Opal"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Ruby",
+        "children": []
+      },
+      {
+        "name": "Opal",
+        "children": []
+      },
+      {
+        "name": "topaze",
+        "children": []
+      },
+      {
+        "name": "molding",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "shiny",
@@ -324,9 +890,12 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "shiny"
   },
-  "mcreatorVersion": 202400340615
+  "mcreatorVersion": 202400342716
 }

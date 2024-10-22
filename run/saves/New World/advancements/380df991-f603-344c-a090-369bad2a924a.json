@@ -857,6 +857,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2024-10-20 21:12:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2024-10-20 21:12:54 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/copper_block": {
     "criteria": {
       "has_copper_ingot": "2024-10-20 21:13:30 +0200"
@@ -866,12 +878,6 @@
   "minecraft:recipes/tools/brush": {
     "criteria": {
       "has_copper_ingot": "2024-10-20 21:13:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_coal": "2024-10-20 21:12:54 +0200"
     },
     "done": true
   },
@@ -893,9 +899,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/coal_block": {
+  "minecraft:story/lava_bucket": {
     "criteria": {
-      "has_coal": "2024-10-20 21:12:54 +0200"
+      "lava_bucket": "2024-10-21 00:13:08 +0200"
     },
     "done": true
   },

@@ -1,0 +1,22 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-10-21 14:56:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-10-21 15:02:07 +0200",
+      "minecraft:forest": "2024-10-21 14:56:54 +0200",
+      "minecraft:taiga": "2024-10-21 15:00:07 +0200",
+      "minecraft:ocean": "2024-10-21 15:02:04 +0200",
+      "minecraft:deep_ocean": "2024-10-21 15:02:40 +0200",
+      "minecraft:river": "2024-10-21 15:00:08 +0200",
+      "minecraft:snowy_taiga": "2024-10-21 15:00:13 +0200",
+      "minecraft:plains": "2024-10-21 15:01:23 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "shiny:custom/scorchingsoilfixed",
+  "textures": {
+    "all": "shiny:block/farmland_scorch",
+    "particle": "shiny:block/farmland_scorch",
+    "0": "shiny:block/farmland_scorch",
+    "2": "minecraft:block/dirt"
+  },
+  "render_type": "solid"
+}

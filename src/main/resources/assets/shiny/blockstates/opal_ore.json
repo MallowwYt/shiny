@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "shiny:block/opal_ore"
+    }
+  }
+}
